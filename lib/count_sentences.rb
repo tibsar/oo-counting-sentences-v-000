@@ -24,6 +24,8 @@ class String
   end
   
   def.self.all<<
+    binding.pry
+  end 
   
   def self.all
     @@all 
