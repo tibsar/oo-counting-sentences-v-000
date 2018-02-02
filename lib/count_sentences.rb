@@ -1,20 +1,20 @@
 require 'pry'
 
-class String
+# class String
 
-  def sentence?
+#   def sentence?
     
-  end
+#   end
 
-  def question?
+#   def question?
 
-  end
+#   end
 
-  def exclamation?
+#   def exclamation?
 
-  end
+#   end
 
-  def count_sentences
+#   def count_sentences
 
-  end
-end
+#   end
+# end
