@@ -1,6 +1,9 @@
 require 'pry'
 
 class MyString
+  
+  def initialize 
+  end 
 
   def sentence?
     self.end_with?(".")
