@@ -2,6 +2,8 @@ require 'pry'
 
 class String
   
+  @@all = []
+  
 
   def sentence?
     self.end_with?(".")
@@ -10,6 +12,7 @@ class String
 
   def question?
     self.end_with?("?")
+    @@all << self 
   end
 
   def exclamation?
@@ -21,5 +24,6 @@ class String
   end
   
   def self.all
+    @@all 
   end 
 end
