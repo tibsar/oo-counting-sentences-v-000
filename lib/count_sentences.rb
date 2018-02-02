@@ -3,6 +3,7 @@ require 'pry'
 class MyString
   
   def initialize 
+    
   end 
 
   def sentence?
