@@ -1,6 +1,6 @@
 require 'pry'
 
-class MyString < String
+class String
   
 
   def sentence?
