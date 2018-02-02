@@ -2,9 +2,6 @@ require 'pry'
 
 class String
   
-  def initialize 
-    
-  end 
 
   def sentence?
     self.end_with?(".")
