@@ -1,6 +1,6 @@
 require 'pry'
 
-class MyString  < Integer
+class MyString
   
 
   def sentence?
