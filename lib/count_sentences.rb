@@ -19,4 +19,7 @@ class String
   def count_sentences
 
   end
+  
+  def self.all
+  end 
 end
